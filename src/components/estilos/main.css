@@ -1,0 +1,10 @@
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(28, 14, 56);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}

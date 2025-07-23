@@ -2,7 +2,7 @@ import "./estilos/main.css";
 export default function Main() {
   return (
     <>
-      <div>
+      <div className="maincontainer">
         <p id="home">
           Aquí encontrará información sobre mis trabajos como desarrollador web
         </p>
@@ -11,7 +11,8 @@ export default function Main() {
           <p>
             Mi nombre es Leonides Hidalgo Alvarez, tengo 30 años, vivo en Cuba,
             soy un desarrollador web junior con ganas de aprender cada día mas y
-            poder crecer con los nuevos retos.
+            poder crecer con los nuevos retos. Contráteme para desbloquear todo
+            mi potencial.
           </p>
         </section>
         <section id="habilidades">
@@ -33,6 +34,9 @@ export default function Main() {
             <li>Aplicación de gestión de tareas</li>
             <li>Portafolio personal</li>
           </ul>
+        </section>
+        <section id="contacto">
+          <h3>Más información</h3>
           <p>
             Todos los proyectos puede encontrarlos en mi{" "}
             <a
@@ -43,13 +47,17 @@ export default function Main() {
               github
             </a>
           </p>
+          <p id="contact">
+            Puede comunicarse conmigo por{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://api.whatsapp.com/send?phone=5358943924&text=Hola"
+            >
+              Whatsapp
+            </a>
+          </p>
         </section>
-        <p id="contact">
-          Puede comunicarse conmigo por{" "}
-          <a href="https://api.whatsapp.com/send?phone=5358943924&text=Hola">
-            Whatsapp
-          </a>
-        </p>
       </div>
     </>
   );

@@ -6,7 +6,7 @@ export default function Footer() {
         <p className="text-sm">
           &copy; {new Date().getFullYear()} My Website. All rights reserved.
         </p>
-        <p className="text-xs mt-2">Built with ❤️ using React.</p>
+        <a href="#home">Ir arriba</a>
       </div>
     </footer>
   );
