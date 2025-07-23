@@ -10,7 +10,8 @@ export default function Main() {
           <h3>Breve descripción sobre mi</h3>
           <p>
             Mi nombre es Leonides Hidalgo Alvarez, tengo 30 años, vivo en Cuba,
-            soy un desarrollador web junior
+            soy un desarrollador web junior con ganas de aprender cada día mas y
+            poder crecer con los nuevos retos.
           </p>
         </section>
         <section id="habilidades">
@@ -34,7 +35,13 @@ export default function Main() {
           </ul>
           <p>
             Todos los proyectos puede encontrarlos en mi{" "}
-            <a href="https://github.com/leonidesha">github</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/leonidesha"
+            >
+              github
+            </a>
           </p>
         </section>
         <p id="contact">
