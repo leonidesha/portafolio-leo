@@ -3,7 +3,7 @@ export default function Main() {
   return (
     <>
       <div className="maincontainer">
-        <p id="home">
+        <p id="start">
           Aquí encontrará información sobre mis trabajos como desarrollador web
         </p>
         <section id="personal">
