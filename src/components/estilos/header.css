@@ -1,0 +1,19 @@
+.headercontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.flexnav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+}
